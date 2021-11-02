@@ -31,9 +31,9 @@ header nav ul li{
 header nav a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 27px;
+    font-size: 13px;
     color: #afafaf;
-    line-height: 27px;
+    line-height: 13px;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -42,4 +42,52 @@ header nav a{
 
 header nav a:hover, header nav a.active:after{
     color: #48a4d0;
+}
+
+.btns{
+    display: flex;
+}
+
+header a{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    height: 38px;
+    width: 115px;
+    border: solid 1px #00aac6;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: #00aac6;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.applybtn{
+    width: 125px;
+    color: white;
+    background: linear-gradient(to right, #72bec1, #64a8c6);
+}
+
+.get_started{
+    height: 675px;
+    background-image: url("../images/get_started.png");
+    background-size: cover;
+}
+
+.get_started .get_started_p{
+    max-width: 1032px;
+    width: 100%;
+    margin: auto;
+}
+
+.get_started h1{
+
 }
