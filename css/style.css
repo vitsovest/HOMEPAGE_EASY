@@ -92,6 +92,8 @@ header a{
     height: 675px;
     background-image: url("../images/get_started.png");
     background-size: cover;
+    max-width: 1366px;
+    margin: auto;
 }
 
 .get_started_p{
@@ -108,7 +110,7 @@ header a{
 
 }
 
-.get{
+.get {
     height: 55px;
     width: 255px;
     border-radius: 5px;
@@ -124,8 +126,40 @@ header a{
     align-items: center;
     justify-content: center;
     color: #24b0ca;
-/*
-align-items: center;
-justify-content: center;
-margin-left: 10px;*/
+}
+.about {
+    height: 765px;
+    background-image: url("../images/about.png");
+    background-size: cover;
+    max-width: 1366px;
+    margin: auto;
+}
+
+
+.about_p{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.about h2{
+    font-family: Goldplay;
+    font-size: 36px;
+    line-height: 36px;
+    color: #00aac6;
+
+}
+.about_p .ab{
+    max-width: 450px;
+    margin-top: 55px;
+    font-size: 12px;
+    line-height: 25px;
+    color: #434343;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.ab p{
+    margin-bottom: 36px;
 }
