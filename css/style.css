@@ -163,3 +163,48 @@ header a{
 .ab p{
     margin-bottom: 36px;
 }
+
+.why{
+    height: 536px;
+    background-image: url("../images/why.png");
+    background-size: cover;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.why_p{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding-top: 98px;
+}
+
+.why h3{
+    font-family: Goldplay;
+    color: white;
+    font-size: 36px;
+    line-height: 36px;
+    display: block;
+    margin-bottom: 82px;
+}
+
+.why .owl-carousel h3{
+    margin-bottom: 46px;
+}
+.why .owl-carousel p{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 20px;
+    display: block;
+    max-width: 334px;
+    width: 100%;
+}
+
+.why .owl-carousel .owl-dots span{
+    content: "\f111";
+    width: 20px;
+    height: 20px;font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
