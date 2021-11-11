@@ -113,7 +113,7 @@ header a{
 .get {
     height: 55px;
     width: 255px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: white;
     text-transform: uppercase;
     text-decoration: none;
@@ -126,6 +126,13 @@ header a{
     align-items: center;
     justify-content: center;
     color: #24b0ca;
+}
+
+.get a{
+    text-decoration: none;
+    color: #00aac6;
+    font-family: Goldplay;
+    font-size: 12px;
 }
 .about {
     height: 765px;
@@ -207,4 +214,38 @@ header a{
     width: 20px;
     height: 20px;font-family: "Font Awesome 5 Free";
     font-weight: 900;
+}
+
+.solutions{
+    height: 691px;
+    background-image: url("../images/solutions.png");
+    background-size: cover;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.solutions_p{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding-top: 189px;
+}
+
+.solutions_p h5{
+    font-family: Goldplay;
+    font-size: 27px;
+    line-height: 27px;
+}
+
+.solutions_p h4{
+    font-family: Goldplay;
+    color: #00aac6;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.solutions_p p{
+    max-width: 438px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
 }
