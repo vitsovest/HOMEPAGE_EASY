@@ -212,7 +212,8 @@ header a{
 .why .owl-carousel .owl-dots span{
     content: "\f111";
     width: 20px;
-    height: 20px;font-family: "Font Awesome 5 Free";
+    height: 20px;
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
 }
 
@@ -248,4 +249,58 @@ header a{
     max-width: 438px;
     margin-top: 40px;
     font-family: 'Poppins', sans-serif;
+}
+
+.features{
+    height: 690px;
+    background-color: white;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.features_p{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.features_p h4{
+    font-family: Goldplay;
+    color: #00aac6;
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 100px;
+}
+
+.features_table{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.features_table .item{
+    height: 283px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: 5px 5px 5px #BDBDBD;
+    display: block;
+    padding-top: 73px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.features_table .item h6{
+    font-family: Goldplay;
+    font-size: 20px;
+    line-height: 35px;
+    color: #383838;
+    display: block;
+}
+
+.features_table .item p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    display: block;
 }
